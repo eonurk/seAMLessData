@@ -1,0 +1,20 @@
+Package: seAMLessData
+Type: Package
+Title: Single Cell Reference Data Repository for 'seAMLess'
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "E Onur",
+             family = "Karakaslar",
+             role = c("aut", "cre"),
+             email = "eonurkara@gmail.com"
+            )
+     )
+URL: https://github.com/eonurk/seAMLess, https://github.com/eonurk/seAMLessData
+BugReports: https://github.com/eonurk/seAMLess/issues
+Description: A data package for 'seAMLess' with single cell atlases to be used. The files were integrated with Seurat using healthy BM data from Triana et al, 2022 and Van Galen et al. 2020.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+RoxygenNote: 7.2.0
